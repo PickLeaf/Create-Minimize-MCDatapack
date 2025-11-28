@@ -1,0 +1,23 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:heavy_core"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "create:tea"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:heavy_core",
+      "components": {
+        "minecraft:enchantments": {
+          "c_mnmz:block_crafting": 1
+        }
+      }
+    }
+  ]
+}

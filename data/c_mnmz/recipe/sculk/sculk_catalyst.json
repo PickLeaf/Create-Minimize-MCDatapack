@@ -1,0 +1,116 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:sculk_shrieker"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "minecraft:sculk_catalyst"
+    },
+    {
+      "chance": 8.0,
+      "id": "minecraft:sculk_shrieker"
+    },
+    {
+      "chance": 8.0,
+      "id": "minecraft:sculk_sensor"
+    },
+    {
+      "chance": 5.0,
+      "id": "minecraft:sculk"
+    },
+    {
+      "chance": 3.0,
+      "id": "minecraft:sculk_vein"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:sculk_shrieker"
+        },
+        {
+          "type": "neoforge:components",
+          "amount": 250,
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:infested"
+            }
+          },
+          "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sculk_shrieker"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:sculk_shrieker"
+        },
+        {
+          "type": "neoforge:components",
+          "amount": 250,
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:oozing"
+            }
+          },
+          "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sculk_shrieker"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:sculk_shrieker"
+        },
+        {
+          "type": "neoforge:components",
+          "amount": 250,
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:wind_charged"
+            }
+          },
+          "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sculk_shrieker"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:sculk_shrieker"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sculk_shrieker"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:sculk_shrieker"
+  }
+}

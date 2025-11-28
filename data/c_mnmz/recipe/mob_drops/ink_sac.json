@@ -1,0 +1,24 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 100,
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:regeneration"
+        }
+      },
+      "fluids": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ink_sac",
+      "count": 2
+    }
+  ]
+}

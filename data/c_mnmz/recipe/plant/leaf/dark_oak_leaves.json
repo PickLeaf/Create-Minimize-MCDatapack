@@ -1,0 +1,19 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_oak_leaves"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 10,
+      "fluid": "create:tea"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:dark_oak_leaves",
+      "count": 2
+    }
+  ]
+}

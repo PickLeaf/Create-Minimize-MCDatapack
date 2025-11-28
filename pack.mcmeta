@@ -1,0 +1,27 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"supported_formats": [34,88],
+		"min_format": 34,
+		"max_format": 48,
+		"description": [
+			{
+				"text": "Create: Minimize V0.1[MC1.21.1]\n"
+			},
+			{
+				"text": "By 刘拾叶 | PickLeaf",
+				"color": "gold"
+			}
+		]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": [48, 48],
+				"min_format": 48,
+				"max_format": 48,
+				"directory": "print_info"
+			}
+		]
+	}
+}

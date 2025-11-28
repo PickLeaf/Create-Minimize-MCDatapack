@@ -1,0 +1,47 @@
+{
+    "parent": "c_mnmz:sculk/sculk_vein",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "block.minecraft.sculk_sensor"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.spout_filling"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "potion.withDuration",
+                "with": [
+                    [
+                        {"translate": "effect.minecraft.speed"},
+                        {"translate": "potion.potency.1"}
+                    ],
+                    {"translate": "01:30"}
+                ]
+            },
+            {"text": "*250mB\n↓\n"},
+            {
+                "translate": "block.minecraft.sculk"
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:sculk_sensor"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

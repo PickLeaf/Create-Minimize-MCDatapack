@@ -1,0 +1,23 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 10,
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_regeneration"
+        }
+      },
+      "fluids": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:red_mushroom_block"
+    }
+  ]
+}

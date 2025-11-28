@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:deepslate"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 1,
+      "id": "minecraft:deepslate_iron_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:deepslate"
+        },
+        {
+          "tag": "c:ingots/iron"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:deepslate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:deepslate"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:deepslate"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:deepslate"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_leaves"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 10,
+      "fluid": "create:tea"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:oak_leaves",
+      "count": 2
+    }
+  ]
+}

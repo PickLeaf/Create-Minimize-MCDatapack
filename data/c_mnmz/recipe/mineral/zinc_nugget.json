@@ -1,0 +1,23 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "create:limestone"
+        }
+    ],
+    "processing_time": 50,
+    "results": [
+        {
+            "chance": 0.75,
+            "id": "create:limestone"
+        },
+        {
+            "chance": 0.05,
+            "id": "create:zinc_nugget"
+        },
+        {
+            "chance": 0.01,
+            "id": "create:crushed_raw_zinc"
+        }
+    ]
+}

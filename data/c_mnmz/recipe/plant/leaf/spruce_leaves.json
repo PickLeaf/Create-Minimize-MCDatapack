@@ -1,0 +1,19 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_leaves"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 10,
+      "fluid": "create:tea"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:spruce_leaves",
+      "count": 2
+    }
+  ]
+}

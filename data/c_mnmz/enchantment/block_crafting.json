@@ -1,0 +1,41 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.mnmz.block_crafting",
+    "fallback": "Block Crafting"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+        {
+            "affected": "victim",
+            "enchanted": "attacker",
+            "effect": {
+                "type": "minecraft:run_function",
+                "function": "c_mnmz:block_crafting"
+            },
+            "requirements": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:chest_minecart"
+              }
+            }
+        }
+    ]
+  },
+  "max_cost": {
+    "base": 2,
+    "per_level_above_first": 0
+  },
+  "min_cost": {
+    "base": 2,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "slots": [
+    "any"
+  ],
+  "supported_items": "minecraft:heavy_core",
+  "primary_items": [],
+  "weight": 1
+}

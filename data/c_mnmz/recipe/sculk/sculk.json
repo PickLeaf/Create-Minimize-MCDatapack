@@ -1,0 +1,23 @@
+{
+    "type": "create:compacting",
+    "heat_requirement": "superheated",
+    "ingredients": [
+        {
+            "item": "minecraft:sculk_catalyst"
+        },
+        {
+            "item": "create:experience_nugget"
+        },
+        {
+            "item": "minecraft:stone"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:sculk_catalyst"
+        },
+        {
+            "id": "minecraft:sculk"
+        }
+    ]
+}

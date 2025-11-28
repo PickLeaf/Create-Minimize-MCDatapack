@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 100,
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_poison"
+        }
+      },
+      "fluids": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "minecraft:spider_eye"
+    }
+  ]
+}

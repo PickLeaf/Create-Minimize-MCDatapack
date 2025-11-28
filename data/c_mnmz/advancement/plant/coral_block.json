@@ -1,0 +1,31 @@
+{
+    "parent": "c_mnmz:plant/brain_coral_block",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": {
+            "translate": "advancement.mnmz.coral_block",
+            "fallback": "How to get Coral Block"
+        },
+        "description": {
+            "color": "#F58220",
+            "translate": "advancement.mnmz.coral_block.desc",
+            "fallback": "Follow the previous recipe, replace coral(fan) with other type of coral(fan)"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:tube_coral_block"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

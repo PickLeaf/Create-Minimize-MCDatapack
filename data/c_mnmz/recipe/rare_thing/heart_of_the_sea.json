@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 1,
+      "id": "minecraft:heart_of_the_sea"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:diamond"
+        },
+        {
+          "item": "minecraft:blue_ice"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:diamond"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:diamond"
+        },
+        {
+          "item": "minecraft:glow_ink_sac"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:diamond"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:diamond"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:diamond"
+  }
+}

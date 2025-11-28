@@ -1,0 +1,21 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:nuggets/iron"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "c:milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ghast_tear"
+    }
+  ]
+}

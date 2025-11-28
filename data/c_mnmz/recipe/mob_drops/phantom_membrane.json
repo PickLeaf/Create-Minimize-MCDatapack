@@ -1,0 +1,18 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "minecraft:elytra"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "id": "minecraft:phantom_membrane"
+        },
+        {
+            "chance": 0.5,
+            "id": "minecraft:phantom_membrane"
+        }
+    ]
+}

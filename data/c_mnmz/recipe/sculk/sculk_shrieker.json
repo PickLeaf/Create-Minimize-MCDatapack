@@ -1,0 +1,13 @@
+{
+    "type": "create:haunting",
+    "ingredients": [
+        {
+            "item": "minecraft:sculk_sensor"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:sculk_shrieker"
+        }
+    ]
+}

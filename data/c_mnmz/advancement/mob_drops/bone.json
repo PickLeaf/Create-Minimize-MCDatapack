@@ -1,0 +1,52 @@
+{
+    "parent": "c_mnmz:craft_way",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "item.minecraft.bone"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.mixing"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "item.minecraft.bone_meal"
+            },
+            {"text": "*3\n"},
+            {
+                "translate": "item.create.zinc_nugget"
+            },
+            {"text": "*1\n"},
+            {
+                "translate": "potion.withDuration",
+                "with": [
+                    {"translate": "effect.minecraft.infested"},
+                    {"text": "03:00"}
+                ]
+            },
+            {"text": "*100mB\n↑\n"},
+            {
+                "translate": "create.recipe.heat_requirement.heated"
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:bone"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

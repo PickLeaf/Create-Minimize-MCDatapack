@@ -1,0 +1,23 @@
+{
+    "mnmz.mod_name": "Create: Minimize",
+    "mnmz.link": "[Link]",
+    "mnmz.load_wrong_version": "(Be loaded to WRONG version!)",
+    "mnmz.create_not_exist": "(The CREATE mod is not installed. Please install it first!)",
+    "mnmz.load_resourcepack": "",
+    "mnmz.catalyst": "Catalyst: ",
+    "advancement.mnmz.root": "Create: Minimize",
+    "advancement.mnmz.root.desc": "This page is used to display the things added by datapack",
+    "advancement.mnmz.craft_way": "Craft Way for everthing",
+    "advancement.mnmz.craft_way.desc": "",
+    "advancement.mnmz.how_to_get": "How to get ",
+    "advancement.mnmz.ore": "How to get Ore",
+    "advancement.mnmz.ore.desc": "Follow the previous recipe, replace coal with other minerals, and make slight adjustments to the number of repetitions",
+    "advancement.mnmz.plant_copy": "How to duplicate Plant",
+    "advancement.mnmz.plant_copy.desc": "Follow the previous recipe, replace leaves with other flowers or coral (fan)",
+    "advancement.mnmz.leaf_copy": "How to duplicate Leaves",
+    "advancement.mnmz.leaf_copy.desc": "Follow the previous recipe, replace leaves with other type of leaves",
+    "advancement.mnmz.coral_block": "How to get Coral Block",
+    "advancement.mnmz.coral_block.desc": "Follow the previous recipe, replace leaves with other flowers or coral (fan)",
+    "advancement.mnmz.block_crafting": "Block Crafting on World",
+    "advancement.mnmz.block_crafting.desc": "Place the correct crafting structure one block above the [Minecart With Chest], and place no more than one stack of catalyst inside the [Minecart With Chest]. Attack the [Minecart With Chest] with a heavy core enchanted with the Block Crafting enchantment."
+}

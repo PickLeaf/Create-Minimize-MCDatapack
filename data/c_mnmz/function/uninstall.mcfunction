@@ -1,0 +1,2 @@
+data remove storage c_mnmz:mem ForceUnloadChunkWhenLoaderBeDestory
+data remove storage c_mnmz:config showVersion

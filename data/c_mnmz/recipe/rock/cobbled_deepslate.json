@@ -1,0 +1,23 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:basalt"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 10,
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:fire_resistance"
+        }
+      },
+      "fluids": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:cobbled_deepslate"
+    }
+  ]
+}

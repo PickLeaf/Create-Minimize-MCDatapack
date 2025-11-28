@@ -1,0 +1,20 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:sculk"
+    }
+  ],
+  "processing_time": 50,
+  "results": [
+    {
+      "count": 2,
+      "id": "minecraft:sculk_vein"
+    },
+    {
+      "chance": 0.5,
+      "count": 2,
+      "id": "minecraft:sculk_vein"
+    }
+  ]
+}

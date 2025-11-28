@@ -1,0 +1,37 @@
+{
+    "parent": "c_mnmz:root",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": {
+            "translate": "advancement.mnmz.block_crafting",
+            "fallback": "Block Crafting on World"
+        },
+        "description": {
+            
+            "translate": "advancement.mnmz.block_crafting.desc",
+            "fallback": "Place the correct crafting structure one block above the chest minecart, and place no more than one stack of catalyst inside the chest minecart. Attack the chest minecart with a heavy core enchanted with the Block Crafting enchantment."
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:heavy_core",
+            "components": {
+                "minecraft:enchantments": {
+                    "c_mnmz:block_crafting": 1
+                }
+            }
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "challenge"
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

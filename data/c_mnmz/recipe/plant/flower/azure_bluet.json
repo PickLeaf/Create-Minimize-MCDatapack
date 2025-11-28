@@ -1,0 +1,24 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:azure_bluet"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 10,
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_regeneration"
+        }
+      },
+      "fluids": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:azure_bluet",
+      "count": 2
+    }
+  ]
+}

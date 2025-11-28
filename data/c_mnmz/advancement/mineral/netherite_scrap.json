@@ -1,0 +1,36 @@
+{
+    "parent": "c_mnmz:mineral/zinc",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "item.minecraft.netherite_scrap"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.crushing"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "item.minecraft.nether_brick"
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:netherite_scrap"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:deepslate"
+  },
+  "loops": 6,
+  "results": [
+    {
+      "chance": 1,
+      "id": "minecraft:deepslate_redstone_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:deepslate"
+        },
+        {
+          "tag": "c:dusts/redstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:deepslate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:deepslate"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:deepslate"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:deepslate"
+  }
+}

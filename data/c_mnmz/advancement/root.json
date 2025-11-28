@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "background": "create:textures/block/andesite_block.png",
+        "title": {
+            "translate": "advancement.mnmz.root",
+            "fallback": "Create: Minimize"
+        },
+        "description": {
+            
+            "translate": "advancement.mnmz.root.desc",
+            "fallback": "This page is used to display the Things added by this datapack"
+        },
+        "icon": {
+            "count": 1,
+            "id": "create:crushing_wheel"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

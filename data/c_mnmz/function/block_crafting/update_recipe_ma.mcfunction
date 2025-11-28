@@ -1,0 +1,1 @@
+$return run data modify entity @s Items[-1].components."minecraft:custom_data"."c_mnmz:cache".value set from storage c_mnmz:recipe block_crafting."$(id)"

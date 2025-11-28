@@ -1,0 +1,23 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 100,
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:wind_charged"
+        }
+      },
+      "fluids": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:breeze_rod"
+    }
+  ]
+}

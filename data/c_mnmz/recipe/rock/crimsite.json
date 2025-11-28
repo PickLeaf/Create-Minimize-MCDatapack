@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:tuff"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 1,
+      "id": "create:crimsite"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:tuff"
+        },
+        {
+          "tag": "c:nuggets/iron"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:tuff"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:tuff"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:tuff"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:tuff"
+  }
+}

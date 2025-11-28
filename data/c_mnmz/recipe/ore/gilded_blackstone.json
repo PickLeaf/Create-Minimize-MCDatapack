@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:blackstone"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 1,
+      "id": "minecraft:gilded_blackstone"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:blackstone"
+        },
+        {
+          "tag": "c:ingots/gold"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:blackstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:blackstone"
+  }
+}

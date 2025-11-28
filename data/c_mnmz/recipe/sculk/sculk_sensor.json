@@ -1,0 +1,23 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 250,
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_swiftness"
+        }
+      },
+      "fluids": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:sculk_sensor"
+    }
+  ]
+}

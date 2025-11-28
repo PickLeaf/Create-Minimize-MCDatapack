@@ -1,0 +1,36 @@
+{
+    "parent": "c_mnmz:mob_drops/ender_pearl",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "item.minecraft.phantom_membrane"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.crushing"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "item.minecraft.elytra"
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:phantom_membrane"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

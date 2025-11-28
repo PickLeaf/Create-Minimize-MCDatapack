@@ -1,0 +1,19 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:cherry_leaves"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 10,
+      "fluid": "create:tea"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:cherry_leaves",
+      "count": 2
+    }
+  ]
+}

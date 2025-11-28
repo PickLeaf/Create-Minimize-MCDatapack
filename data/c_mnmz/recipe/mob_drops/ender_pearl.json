@@ -1,0 +1,27 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "minecraft:wind_charge"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "c:honey"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ender_pearl"
+    }
+  ]
+}

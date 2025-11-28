@@ -1,0 +1,83 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:conduit"
+  },
+  "loops": 6,
+  "results": [
+    {
+      "chance": 1,
+      "id": "minecraft:heavy_core"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:conduit"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:conduit"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:conduit"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:conduit"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:smooth_basalt"
+        },
+        {
+          "type": "neoforge:components",
+          "amount": 250,
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:strong_turtle_master"
+            }
+          },
+          "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:smooth_basalt"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:conduit"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:conduit"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:conduit"
+  }
+}

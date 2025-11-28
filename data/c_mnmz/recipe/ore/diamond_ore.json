@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:stone"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 1,
+      "id": "minecraft:diamond_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:stone"
+        },
+        {
+          "tag": "c:gems/diamond"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:stone"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:stone"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:stone"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 250,
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:weaving"
+        }
+      },
+      "fluids": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:cobweb"
+    }
+  ]
+}

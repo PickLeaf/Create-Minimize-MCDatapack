@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:smooth_basalt"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 100,
+      "tag": "c:milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:calcite"
+    }
+  ]
+}

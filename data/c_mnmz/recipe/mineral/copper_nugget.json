@@ -1,0 +1,22 @@
+{
+    "type": "create:haunting",
+    "ingredients": [
+        {
+            "item": "create:scoria"
+        }
+    ],
+    "results": [
+        {
+            "chance": 0.20,
+            "id": "minecraft:soul_sand"
+        },
+        {
+            "chance": 0.125,
+            "id": "create:copper_nugget"
+        },
+        {
+            "chance": 0.05,
+            "id": "create:crushed_raw_copper"
+        }
+    ]
+}

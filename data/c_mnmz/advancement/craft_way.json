@@ -1,0 +1,31 @@
+{
+    "parent": "c_mnmz:root",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": {
+            "translate": "advancement.mnmz.craft_way",
+            "fallback": "Craft Way for everthing"
+        },
+        "description": {
+            
+            "translate": "advancement.mnmz.craft_way.desc",
+            "fallback": ""
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:crafting_table"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

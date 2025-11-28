@@ -1,0 +1,74 @@
+{
+    "parent": "c_mnmz:rock/tuff",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "tag.item.create.stone_types.asurine"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.sequenced_assembly"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "block.minecraft.tuff"
+            },
+            {"text": "\n↓\n"},
+            {
+                "translate": "create.recipe.assembly.step",
+                "with": [
+                    {
+                        "text": "1"
+                    }
+                ]
+            },
+            {
+                "translate": "create.recipe.assembly.deploying_item",
+                "with": [
+                    {
+                        "translate": "item.create.zinc_nugget"
+                    }
+                ]
+            },
+            {"text": "\n"},
+            {
+                "translate": "create.recipe.assembly.step",
+                "with": [
+                    {
+                        "text": "2"
+                    }
+                ]
+            },
+            {
+                "translate": "create.recipe.assembly.pressing"
+            },
+            {"text": "\n"},
+            {
+                "translate": "create.recipe.assembly.repeat",
+                "with": [
+                    {
+                        "text": "3"
+                    }
+                ]
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "create:asurine"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

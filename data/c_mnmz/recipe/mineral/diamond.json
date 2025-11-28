@@ -1,0 +1,22 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "minecraft:heart_of_the_sea"
+        }
+    ],
+    "results": [
+        {
+            "chance": 1,
+            "id": "minecraft:diamond"
+        },
+        {
+            "chance": 0.5,
+            "id": "minecraft:diamond"
+        },
+        {
+            "chance": 0.125,
+            "id": "minecraft:diamond"
+        }
+    ]
+}

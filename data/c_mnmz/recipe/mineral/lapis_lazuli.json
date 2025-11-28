@@ -1,0 +1,19 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "minecraft:warped_wart_block"
+        }
+    ],
+    "results": [
+        {
+            "count": 6,
+            "id": "minecraft:lapis_lazuli"
+        },
+        {
+            "chance": 0.5,
+            "count": 3,
+            "id": "minecraft:lapis_lazuli"
+        }
+    ]
+}

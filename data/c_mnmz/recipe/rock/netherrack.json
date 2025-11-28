@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_brick"
+    },
+    {
+      "item": "minecraft:weeping_vines"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:netherrack"
+    }
+  ]
+}

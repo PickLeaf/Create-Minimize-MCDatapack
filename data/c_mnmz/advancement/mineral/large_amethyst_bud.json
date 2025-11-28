@@ -1,0 +1,40 @@
+{
+    "parent": "c_mnmz:mineral/medium_amethyst_bud",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "block.minecraft.large_amethyst_bud"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.spout_filling"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "block.minecraft.water"
+            },
+            {"text": "*1000mB\n↓\n"},
+            {
+                "translate": "block.minecraft.medium_amethyst_bud"
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:large_amethyst_bud"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

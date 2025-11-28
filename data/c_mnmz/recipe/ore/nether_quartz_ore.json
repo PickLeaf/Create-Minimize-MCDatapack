@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:netherrack"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 1,
+      "id": "minecraft:nether_quartz_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:netherrack"
+        },
+        {
+          "tag": "c:gems/quartz"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:netherrack"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:netherrack"
+  }
+}

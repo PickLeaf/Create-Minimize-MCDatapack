@@ -1,0 +1,83 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:smooth_basalt"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 1,
+      "id": "minecraft:ancient_debris"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:smooth_basalt"
+        },
+        {
+          "item": "minecraft:netherite_scrap"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:smooth_basalt"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:smooth_basalt"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:smooth_basalt"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:smooth_basalt"
+        },
+        {
+          "type": "neoforge:components",
+          "amount": 250,
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:strong_healing"
+            }
+          },
+          "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:smooth_basalt"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:smooth_basalt"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:smooth_basalt"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:smooth_basalt"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:nuggets/zinc"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "type": "neoforge:components",
+      "amount": 100,
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:infested"
+        }
+      },
+      "fluids": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "minecraft:bone"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+    "parent": "c_mnmz:mob_drops/pufferfish",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "item.minecraft.ink_sac"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.spout_filling"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "potion.withDuration",
+                "with": [
+                    {"translate": "effect.minecraft.regeneration"},
+                    {"translate": "00:45"}
+                ]
+            },
+            {"text": "*100mB\n↓\n"},
+            {
+                "translate": "item.minecraft.ink_sac"
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:ink_sac"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

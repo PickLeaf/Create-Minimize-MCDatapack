@@ -1,0 +1,48 @@
+{
+    "parent": "c_mnmz:block_crafting",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": {
+            "translate": "advancement.mnmz.elytra",
+            "fallback": "How to get Elytra"
+        },
+        "description": [
+            {"text": "一一田田界田田一一\n"},
+            {"text": "一田钻田一田钻田一\n"},
+            {"text": "田钻钻田一田钻钻田\n"},
+            {"text": "田钻土田一田土钻田\n"},
+            {"text": "田土土田一田土土田\n"},
+            {"text": "田田土田一田土田田\n"},
+            {"text": "一田土田一田土田一\n"},
+            {"text": "一田田田一田田田一\n"},
+            {"text": "一一一田一田一一一"},
+            {"color":"#F58220","text": "\n田: "},
+            {"color":"#F58220","translate": "block.minecraft.blast_furnace"},
+            {"color":"#F58220","text": "\n界: "},
+            {"color":"#F58220","translate": "block.minecraft.netherite_block"},
+            {"color":"#F58220","text": "\n钻: "},
+            {"color":"#F58220","translate": "block.minecraft.diamond_ore"},
+            {"color":"#F58220","text": "\n土: "},
+            {"color":"#F58220","translate": "block.minecraft.clay"},
+            {"text": "\n\n"},
+            {"color":"#F58220","translate": "mnmz.catalyst","fallback": "Catalyst: "},
+            {"color":"#F58220","translate": "item.minecraft.phantom_membrane"}
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:elytra"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}
