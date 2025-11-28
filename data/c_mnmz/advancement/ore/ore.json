@@ -7,12 +7,12 @@
     },
     "display": {
         "title": {
-            "translate": "advancement.mnmz.ore",
+            "translate": "advancement.c_mnmz.ore",
             "fallback": "How to get Ore"
         },
         "description": {
             "color": "#F58220",
-            "translate": "advancement.mnmz.ore.desc",
+            "translate": "advancement.c_mnmz.ore.desc",
             "fallback": "Follow the previous recipe, replace coal with other minerals, and make slight adjustments to the number of repetitions"
         },
         "icon": {

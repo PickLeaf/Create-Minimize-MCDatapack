@@ -7,12 +7,12 @@
     },
     "display": {
         "title": {
-            "translate": "advancement.mnmz.coral_block",
+            "translate": "advancement.c_mnmz.coral_block",
             "fallback": "How to get Coral Block"
         },
         "description": {
             "color": "#F58220",
-            "translate": "advancement.mnmz.coral_block.desc",
+            "translate": "advancement.c_mnmz.coral_block.desc",
             "fallback": "Follow the previous recipe, replace coral(fan) with other type of coral(fan)"
         },
         "icon": {

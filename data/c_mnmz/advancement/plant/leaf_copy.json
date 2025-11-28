@@ -7,12 +7,12 @@
     },
     "display": {
         "title": {
-            "translate": "advancement.mnmz.leaf_copy",
+            "translate": "advancement.c_mnmz.leaf_copy",
             "fallback": "How to duplicate leaves"
         },
         "description": {
             "color": "#F58220",
-            "translate": "advancement.mnmz.leaf_copy.desc",
+            "translate": "advancement.c_mnmz.leaf_copy.desc",
             "fallback": "Follow the previous recipe, replace leaves with other type of leaves"
         },
         "icon": {

@@ -7,12 +7,12 @@
     },
     "display": {
         "title": {
-            "translate": "advancement.mnmz.block_crafting",
+            "translate": "advancement.c_mnmz.block_crafting",
             "fallback": "Block Crafting on World"
         },
         "description": {
             
-            "translate": "advancement.mnmz.block_crafting.desc",
+            "translate": "advancement.c_mnmz.block_crafting.desc",
             "fallback": "Place the correct crafting structure one block above the chest minecart, and place no more than one stack of catalyst inside the chest minecart. Attack the chest minecart with a heavy core enchanted with the Block Crafting enchantment."
         },
         "icon": {

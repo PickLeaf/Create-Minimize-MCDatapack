@@ -7,12 +7,12 @@
     "display": {
         "background": "create:textures/block/andesite_block.png",
         "title": {
-            "translate": "advancement.mnmz.root",
+            "translate": "advancement.c_mnmz.root",
             "fallback": "Create: Minimize"
         },
         "description": {
             
-            "translate": "advancement.mnmz.root.desc",
+            "translate": "advancement.c_mnmz.root.desc",
             "fallback": "This page is used to display the Things added by this datapack"
         },
         "icon": {

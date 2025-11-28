@@ -7,7 +7,7 @@
     },
     "display": {
         "title": {
-            "translate": "advancement.mnmz.elytra",
+            "translate": "advancement.c_mnmz.elytra",
             "fallback": "How to get Elytra"
         },
         "description": [

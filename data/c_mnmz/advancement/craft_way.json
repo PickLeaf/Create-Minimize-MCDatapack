@@ -7,12 +7,12 @@
     },
     "display": {
         "title": {
-            "translate": "advancement.mnmz.craft_way",
+            "translate": "advancement.c_mnmz.craft_way",
             "fallback": "Craft Way for everthing"
         },
         "description": {
             
-            "translate": "advancement.mnmz.craft_way.desc",
+            "translate": "advancement.c_mnmz.craft_way.desc",
             "fallback": ""
         },
         "icon": {

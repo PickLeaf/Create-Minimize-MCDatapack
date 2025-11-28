@@ -7,12 +7,12 @@
     },
     "display": {
         "title": {
-            "translate": "advancement.mnmz.plant_copy",
+            "translate": "advancement.c_mnmz.plant_copy",
             "fallback": "How to duplicate Plant"
         },
         "description": {
             "color": "#F58220",
-            "translate": "advancement.mnmz.plant_copy.desc",
+            "translate": "advancement.c_mnmz.plant_copy.desc",
             "fallback": "Follow the previous recipe, replace leaves with other flowers or coral (fan)"
         },
         "icon": {

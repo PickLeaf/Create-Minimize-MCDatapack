@@ -1,7 +1,7 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.mnmz.block_crafting",
+    "translate": "enchantment.c_mnmz.block_crafting",
     "fallback": "Block Crafting"
   },
   "effects": {
