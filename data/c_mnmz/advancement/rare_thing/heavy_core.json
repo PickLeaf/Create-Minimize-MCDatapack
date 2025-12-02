@@ -1,5 +1,5 @@
 {
-    "parent": "c_mnmz:rare_thing/heart_of_the_sea",
+    "parent": "c_mnmz:rare_thing/nautilus_shell",
     "criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed"
@@ -62,7 +62,7 @@
                 "with": [
                     [
                         {"translate": "item.minecraft.potion.effect.turtle_master"},
-                        {"text": "*250mB:\n"},
+                        {"text": "*250mB: \n"},
                         {
                             "translate": "potion.withDuration",
                             "with": [

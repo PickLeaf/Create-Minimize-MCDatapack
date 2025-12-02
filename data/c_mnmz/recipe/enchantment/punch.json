@@ -1,0 +1,56 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:punch": 2
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "create:windmill_bearing"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:windmill_bearing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:windmill_bearing"
+        },
+        {
+          "item": "create:encased_fan"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:windmill_bearing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:windmill_bearing"
+  }
+}

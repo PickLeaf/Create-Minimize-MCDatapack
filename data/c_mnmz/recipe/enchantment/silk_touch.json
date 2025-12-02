@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:silk_touch": 1
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:grass_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:grass_block"
+        },
+        {
+          "tag": "c:wools"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:grass_block"
+        },
+        {
+          "tag": "c:ingots/gold"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:grass_block"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:grass_block"
+  }
+}

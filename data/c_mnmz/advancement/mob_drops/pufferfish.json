@@ -19,8 +19,8 @@
             {
                 "translate": "potion.withDuration",
                 "with": [
-                    {"translate": "effect.minecraft.regeneration"},
-                    {"translate": "00:45"}
+                    {"translate": "effect.minecraft.oozing"},
+                    {"translate": "03:00"}
                 ]
             },
             {"text": "*100mB\n↓\n"},

@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:smite": 5
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:rotten_flesh"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:rotten_flesh"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:rotten_flesh"
+        },
+        {
+          "item": "minecraft:bone"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:rotten_flesh"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:rotten_flesh"
+        },
+        {
+          "item": "minecraft:arrow"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:rotten_flesh"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:rotten_flesh"
+  }
+}

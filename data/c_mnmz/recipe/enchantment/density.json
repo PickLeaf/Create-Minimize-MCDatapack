@@ -1,0 +1,98 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:density": 5
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:raw_iron_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:raw_iron_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:raw_gold_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:raw_iron_block"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:raw_iron_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:raw_iron_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:raw_iron_block"
+        },
+        {
+          "item": "minecraft:ancient_debris"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:raw_iron_block"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:raw_iron_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:raw_iron_block"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:raw_iron_block"
+  }
+}

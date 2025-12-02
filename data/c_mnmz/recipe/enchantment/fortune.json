@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:fortune": 3
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:lapis_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:lapis_block"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:lapis_block"
+        },
+        {
+          "type": "neoforge:components",
+          "amount": 250,
+          "components": {
+            "create:potion_fluid_bottle_type": "regular",
+            "minecraft:potion_contents": {
+              "potion": "minecraft:luck"
+            }
+          },
+          "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:lapis_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:lapis_block"
+        },
+        {
+          "item": "minecraft:amethyst_cluster"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:lapis_block"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:lapis_block"
+  }
+}

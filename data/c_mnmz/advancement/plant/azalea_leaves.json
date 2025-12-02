@@ -1,5 +1,5 @@
 {
-    "parent": "c_mnmz:plant/mushroom_stem",
+    "parent": "c_mnmz:plant/wither_rose",
     "criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed"

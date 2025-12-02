@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:breach": 4
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "create:redstone_requester"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:redstone_requester"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create:redstone_requester"
+        },
+        {
+          "type": "neoforge:components",
+          "amount": 250,
+          "components": {
+            "create:potion_fluid_bottle_type": "splash",
+            "minecraft:potion_contents": {
+              "potion": "minecraft:long_invisibility"
+            }
+          },
+          "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:redstone_requester"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:redstone_requester"
+        },
+        {
+          "item": "create:brass_hand"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:redstone_requester"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:redstone_requester"
+  }
+}

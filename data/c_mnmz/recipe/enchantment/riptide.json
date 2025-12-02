@@ -1,0 +1,56 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:riptide": 3
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:firework_rocket"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:firework_rocket"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:firework_rocket"
+        },
+        {
+          "item": "minecraft:ink_sac"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:firework_rocket"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:firework_rocket"
+  }
+}

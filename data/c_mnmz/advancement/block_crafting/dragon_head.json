@@ -1,0 +1,50 @@
+{
+    "parent": "c_mnmz:block_crafting/elytra",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            { "translate": "block.minecraft.dragon_head"}
+        ],
+        "description": [
+            {"text": "一一石一一一石一一\n"},
+            {"text": "田田田田田田田田田\n"},
+            {"text": "田田田田田田田田田\n"},
+            {"text": "田红紫田田田紫红田\n"},
+            {"text": "田红紫红田红紫红田\n"},
+            {"text": "田田田田田田田田田\n"},
+            {"text": "田黑黑黑黑黑黑黑田\n"},
+            {"text": "田黑黑黑黑黑黑黑田\n"},
+            {"text": "田田田田田田田田田\n"},
+            {"color":"#F58220","text": "\n田: "},
+            {"color":"#F58220","translate": "block.minecraft.obsidian"},
+            {"color":"#F58220","text": "\n黑: "},
+            {"color":"#F58220","translate": "block.minecraft.black_concrete"},
+            {"color":"#F58220","text": "\n红: "},
+            {"color":"#F58220","translate": "block.minecraft.magenta_concrete"},
+            {"color":"#F58220","text": "\n紫: "},
+            {"color":"#F58220","translate": "block.minecraft.purple_concrete"},
+            {"color":"#F58220","text": "\n石: "},
+            {"color":"#F58220","translate": "block.minecraft.stonecutter"},
+            {"text": "\n\n"},
+            {"color":"#F58220","translate": "mnmz.catalyst","fallback": "Catalyst: "},
+            {"color":"#F58220","translate": "block.minecraft.dragon_head"}
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:dragon_head"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

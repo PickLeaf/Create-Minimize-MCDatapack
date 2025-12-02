@@ -1,0 +1,56 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:depth_strider": 3
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:lily_pad"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:lily_pad"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:lily_pad"
+        },
+        {
+          "tag": "minecraft:boats"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:lily_pad"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:lily_pad"
+  }
+}

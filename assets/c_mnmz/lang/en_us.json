@@ -19,5 +19,5 @@
     "advancement.c_mnmz.coral_block": "How to get Coral Block",
     "advancement.c_mnmz.coral_block.desc": "Follow the previous recipe, replace leaves with other flowers or coral (fan)",
     "advancement.c_mnmz.block_crafting": "Block Crafting on World",
-    "advancement.c_mnmz.block_crafting.desc": "Place the correct crafting structure one block above the [Minecart With Chest], and place no more than one stack of catalyst inside the [Minecart With Chest]. Attack the [Minecart With Chest] with a heavy core enchanted with the Block Crafting enchantment."
+    "advancement.c_mnmz.block_crafting.desc": "Print the \"block_crafting_machine.nbt\" Blueprint File from the Datapacket file, and finally place a Heavy Core above the crafter to assemble the multiblock crafting machine. Place the correct catalyst inside the crafter and the correct multiblock structure on top of the crafter to craft the corresponding item.The Blueprints for ALL items are in the schematics/ folder of the Datapack file"
 }

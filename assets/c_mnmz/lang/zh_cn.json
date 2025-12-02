@@ -19,5 +19,5 @@
     "advancement.c_mnmz.coral_block": "如何获取珊瑚块",
     "advancement.c_mnmz.coral_block.desc": "遵循先前的配方，替换珊瑚（扇）为其他种类的珊瑚（扇）",
     "advancement.c_mnmz.block_crafting": "世界上的方块合成",
-    "advancement.c_mnmz.block_crafting.desc": "使用 [建筑工茶饮]*1000mB 注液 [沉重核心]\n[运输矿车]上方一格摆出正确合成结构，[运输矿车]内仅放入最多一组的触媒，使用带有方块合成魔咒的沉重核心击打[运输矿车]。"
+    "advancement.c_mnmz.block_crafting.desc": "打印数据包文件中的\"block_crafting_machine.nbt\"蓝图文件，最后在合成器上方放置一个沉重核心以组装多方块合成机器。合成器内放入正确触媒并在合成器上放置出正确的多方块结构能合成出对应物品。所有物品对应的蓝图都在数据包文件的schematics/文件夹内。"
 }

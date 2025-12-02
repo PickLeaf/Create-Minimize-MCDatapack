@@ -1,0 +1,89 @@
+{
+    "parent": "c_mnmz:enchantment/capacity",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "enchantment.create.potato_recovery"},
+            {"translate": "enchantment.level.3"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.sequenced_assembly"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "item.minecraft.book"
+            },
+            {"text": "\n↓\n"},
+            {
+                "translate": "create.recipe.assembly.step",
+                "with": [{"text": "1"}]
+            },
+            {
+                "translate": "create.recipe.assembly.deploying_item",
+                "with": [
+                    {
+                        "translate": "item.minecraft.poisonous_potato"
+                    }
+                ]
+            },
+            {"text": "\n"},
+            {
+                "translate": "create.recipe.assembly.step",
+                "with": [{"text": "2"}]
+            },
+            {
+                "translate": "create.recipe.assembly.deploying_item",
+                "with": [
+                    {
+                        "translate": "item.minecraft.golden_apple"
+                    }
+                ]
+            },
+            {"text": "\n"},
+            {
+                "translate": "create.recipe.assembly.step",
+                "with": [{"text": "3"}]
+            },
+            {
+                "translate": "create.recipe.assembly.deploying_item",
+                "with": [
+                    {
+                        "translate": "item.minecraft.glistering_melon_slice"
+                    }
+                ]
+            },
+            {"text": "\n"},
+            {
+                "translate": "create.recipe.assembly.repeat",
+                "with": [
+                    {
+                        "text": "3"
+                    }
+                ]
+            }
+        ],
+        "icon": {
+            "id": "create:potato_cannon",
+            "components": {
+                "minecraft:enchantments": {
+                    "create:potato_recovery": 3
+                }
+            }
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

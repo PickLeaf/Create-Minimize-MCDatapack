@@ -1,8 +1,10 @@
-data remove entity @s \
-    Items[-1].components."minecraft:custom_data"."c_mnmz:cache".value
-function c_mnmz:block_crafting/update_recipe_ma with entity @s \
+data remove block ~ ~-1 ~ Command
+data remove storage c_mnmz:mem compound
+function c_mnmz:block_crafting/get_recipe with block ~ ~1 ~ \
     Items[0]
-execute if data entity @s \
-Items[-1].components."minecraft:custom_data"."c_mnmz:cache".value \
-    run return fail
-return 1
+execute unless data storage c_mnmz:mem compound \
+    run return 1
+execute positioned ~ ~-1 ~ run \
+    function c_mnmz:block_crafting/set_command with storage c_mnmz:mem compound
+data remove storage c_mnmz:mem compound
+return fail

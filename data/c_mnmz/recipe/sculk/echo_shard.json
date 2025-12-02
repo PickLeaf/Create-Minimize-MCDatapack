@@ -1,0 +1,141 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:sculk_catalyst"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "minecraft:echo_shard"
+    },
+    {
+      "chance": 8.0,
+      "id": "minecraft:sculk_catalyst"
+    },
+    {
+      "chance": 8.0,
+      "id": "minecraft:amethyst_shard"
+    },
+    {
+      "chance": 5.0,
+      "id": "minecraft:prismarine_shard"
+    },
+    {
+      "chance": 3.0,
+      "id": "minecraft:sculk_vein"
+    },
+    {
+      "chance": 1.0,
+      "id": "minecraft:netherite_scrap"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:sculk_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sculk_catalyst"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:sculk_catalyst"
+        },
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:amethyst_shard"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:amethyst_shard"
+        },
+        {
+          "item": "minecraft:prismarine_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:prismarine_shard"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:amethyst_shard"
+        },
+        {
+          "item": "minecraft:netherite_scrap"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:netherite_scrap"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:netherite_scrap"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sculk_catalyst"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:sculk_catalyst"
+        },
+        {
+          "item": "minecraft:sculk_vein"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sculk_vein"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:sculk_vein"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sculk_catalyst"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:sculk_catalyst"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:blast_protection": 4
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:water_bucket"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:oak_leaves"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_leaves"
+        },
+        {
+          "tag": "minecraft:leaves"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:oak_leaves"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_leaves"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:oak_leaves"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:oak_leaves"
+  }
+}

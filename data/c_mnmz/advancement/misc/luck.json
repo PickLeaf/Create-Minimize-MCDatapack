@@ -1,0 +1,49 @@
+{
+    "parent": "c_mnmz:misc/experience_bottle",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            { "translate": "item.minecraft.potion.effect.luck"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.mixing"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "block.minecraft.amethyst_block"
+            },
+            {"text": "*1\n"},
+            {
+                "translate": "block.minecraft.water"
+            },
+            {"text": "*1000mB\n↑\n"},
+            {
+                "translate": "create.recipe.heat_requirement.heated"
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:luck"
+                }
+            }
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

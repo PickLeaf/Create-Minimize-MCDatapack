@@ -28,7 +28,7 @@
             },
             {"text": "*10mB\n↓\n"},
             {
-                "translate": "block.minecraft.brown_mushroom"
+                "translate": "block.minecraft.mushroom_stem"
             }
         ],
         "icon": {

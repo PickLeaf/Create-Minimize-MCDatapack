@@ -1,0 +1,1 @@
+$data modify block ~ ~ ~ Command set value "execute positioned ~ ~3 ~ if predicate $(predicate) run function $(result)"

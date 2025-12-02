@@ -9,7 +9,7 @@
       "amount": 100,
       "components": {
         "minecraft:potion_contents": {
-          "potion": "minecraft:regeneration"
+          "potion": "minecraft:long_water_breathing"
         }
       },
       "fluids": "create:potion"

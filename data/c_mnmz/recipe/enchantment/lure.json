@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:lure": 3
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:cake"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:cake"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:cake"
+        },
+        {
+          "item": "minecraft:golden_carrot"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:cake"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:cake"
+        },
+        {
+          "item": "minecraft:glistering_melon_slice"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:cake"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:cake"
+  }
+}

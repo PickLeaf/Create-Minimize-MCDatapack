@@ -1,0 +1,91 @@
+{
+    "parent": "c_mnmz:enchantment/sharpness",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "enchantment.minecraft.impaling"},
+            {"translate": "enchantment.level.5"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.sequenced_assembly"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "item.minecraft.book"
+            },
+            {"text": "\n↓\n"},
+            {
+                "translate": "create.recipe.assembly.step",
+                "with": [{"text": "1"}]
+            },
+            {
+                "translate": "create.recipe.assembly.deploying_item",
+                "with": [
+                    {
+                        "translate": "item.minecraft.fermented_spider_eye"
+                    }
+                ]
+            },
+            {"text": "\n"},
+            {
+                "translate": "create.recipe.assembly.step",
+                "with": [{"text": "2"}]
+            },
+            {
+                "translate": "create.recipe.assembly.spout_filling_fluid",
+                "with": [
+                    [
+                        {"translate": "item.minecraft.lingering_potion.effect.harming"},
+                        {"translate": "potion.potency.1"},
+                        {"text": "*250mB"}
+                    ]
+                ]
+            },
+            {"text": "\n"},
+            {
+                "translate": "create.recipe.assembly.step",
+                "with": [{"text": "3"}]
+            },
+            {
+                "translate": "create.recipe.assembly.deploying_item",
+                "with": [
+                    {
+                        "translate": "item.minecraft.end_crystal"
+                    }
+                ]
+            },
+            {"text": "\n"},
+            {
+                "translate": "create.recipe.assembly.repeat",
+                "with": [
+                    {
+                        "text": "5"
+                    }
+                ]
+            }
+        ],
+        "icon": {
+            "id": "minecraft:trident",
+            "components": {
+                "minecraft:enchantments": {
+                    "minecraft:impaling": 5
+                }
+            }
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

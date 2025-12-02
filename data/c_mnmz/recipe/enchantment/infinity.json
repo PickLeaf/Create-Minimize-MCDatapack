@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:infinity": 1
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "create:mechanical_drill"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:mechanical_drill"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:mechanical_drill"
+        },
+        {
+          "item": "minecraft:water_bucket"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:mechanical_drill"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:mechanical_drill"
+        },
+        {
+          "item": "minecraft:lava_bucket"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:mechanical_drill"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:mechanical_drill"
+  }
+}

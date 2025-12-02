@@ -1,0 +1,56 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:flame": 1
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:fire_charge"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:fire_charge"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:fire_charge"
+        },
+        {
+          "item": "minecraft:flint_and_steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:fire_charge"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:fire_charge"
+  }
+}

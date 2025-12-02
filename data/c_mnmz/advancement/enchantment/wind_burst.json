@@ -1,0 +1,89 @@
+{
+    "parent": "c_mnmz:enchantment/breach",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "enchantment.minecraft.wind_burst"},
+            {"translate": "enchantment.level.3"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.sequenced_assembly"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "item.minecraft.book"
+            },
+            {"text": "\n↓\n"},
+            {
+                "translate": "create.recipe.assembly.step",
+                "with": [{"text": "1"}]
+            },
+            {
+                "translate": "create.recipe.assembly.deploying_item",
+                "with": [
+                    {
+                        "translate": "item.minecraft.breeze_rod"
+                    }
+                ]
+            },
+            {"text": "\n"},
+            {
+                "translate": "create.recipe.assembly.step",
+                "with": [{"text": "2"}]
+            },
+            {
+                "translate": "create.recipe.assembly.deploying_item",
+                "with": [
+                    {
+                        "translate": "block.minecraft.tnt"
+                    }
+                ]
+            },
+            {"text": "\n"},
+            {
+                "translate": "create.recipe.assembly.step",
+                "with": [{"text": "3"}]
+            },
+            {
+                "translate": "create.recipe.assembly.deploying_item",
+                "with": [
+                    {
+                        "translate": "block.minecraft.sculk_shrieker"
+                    }
+                ]
+            },
+            {"text": "\n"},
+            {
+                "translate": "create.recipe.assembly.repeat",
+                "with": [
+                    {
+                        "text": "3"
+                    }
+                ]
+            }
+        ],
+        "icon": {
+            "id": "minecraft:mace",
+            "components": {
+                "minecraft:enchantments": {
+                    "minecraft:wind_burst": 3
+                }
+            }
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

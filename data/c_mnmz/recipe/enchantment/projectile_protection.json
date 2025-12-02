@@ -1,0 +1,69 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:projectile_protection": 4
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:shield"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:shield"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:shield"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:shield"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:shield"
+        },
+        {
+          "item": "minecraft:chorus_fruit"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:shield"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:shield"
+  }
+}

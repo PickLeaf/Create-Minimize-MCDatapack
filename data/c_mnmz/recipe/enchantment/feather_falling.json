@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:feather_falling": 4
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:hay_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:hay_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:hay_block"
+        },
+        {
+          "item": "minecraft:slime_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:hay_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:hay_block"
+        },
+        {
+          "item": "minecraft:water_bucket"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:hay_block"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:hay_block"
+  }
+}

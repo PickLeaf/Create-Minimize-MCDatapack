@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:quick_charge": 3
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:sticky_piston"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sticky_piston"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:observer"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sticky_piston"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:sticky_piston"
+        },
+        {
+          "item": "minecraft:observer"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:sticky_piston"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:sticky_piston"
+  }
+}

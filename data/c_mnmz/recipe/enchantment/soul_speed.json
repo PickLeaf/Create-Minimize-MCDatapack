@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:soul_speed": 3
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:raw_gold_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:raw_gold_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:raw_gold_block"
+        },
+        {
+          "item": "minecraft:soul_sand"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:raw_gold_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:raw_gold_block"
+        },
+        {
+          "item": "minecraft:soul_soil"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:raw_gold_block"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:raw_gold_block"
+  }
+}

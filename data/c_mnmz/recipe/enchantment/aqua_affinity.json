@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:aqua_affinity": 1
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:bucket"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:bucket"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:bucket"
+        },
+        {
+          "item": "minecraft:glass_bottle"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:bucket"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:bucket"
+        },
+        {
+          "tag": "minecraft:wooden_doors"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:bucket"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:bucket"
+  }
+}

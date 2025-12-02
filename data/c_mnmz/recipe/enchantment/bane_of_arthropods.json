@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:bane_of_arthropods": 5
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:spider_eye"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:spider_eye"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:spider_eye"
+        },
+        {
+          "item": "minecraft:infested_stone"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:spider_eye"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:spider_eye"
+        },
+        {
+          "item": "minecraft:honeycomb"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:spider_eye"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:spider_eye"
+  }
+}

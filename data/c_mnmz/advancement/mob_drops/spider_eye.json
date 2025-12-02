@@ -17,7 +17,11 @@
             },
             {"text": ":\n"},
             {
-                "translate": "item.minecraft.fermented_spider_eye"
+                "translate": "item.minecraft.beetroot"
+            },
+            {"text": "*1\n"},
+            {
+                "translate": "item.create.copper_nugget"
             },
             {"text": "*1\n"},
             {

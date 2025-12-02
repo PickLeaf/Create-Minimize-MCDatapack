@@ -13,7 +13,7 @@
         "description": [
             {
                 "color": "#F58220",
-                "translate": "create.recipe.deploying"
+                "translate": "create.recipe.item_application"
             },
             {"text": ":\n"},
             {

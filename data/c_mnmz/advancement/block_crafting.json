@@ -13,14 +13,14 @@
         "description": {
             
             "translate": "advancement.c_mnmz.block_crafting.desc",
-            "fallback": "Place the correct crafting structure one block above the chest minecart, and place no more than one stack of catalyst inside the chest minecart. Attack the chest minecart with a heavy core enchanted with the Block Crafting enchantment."
+            "fallback": "Print the \"block_crafting_machine.nbt\" Blueprint File from the Datapacket file, and finally place a Heavy Core above the crafter to assemble the multiblock crafting machine. Place the correct catalyst inside the crafter and the correct multiblock structure on top of the crafter to craft the corresponding item.The Blueprints for ALL items are in the schematics/ folder of the Datapack file"
         },
         "icon": {
             "count": 1,
             "id": "minecraft:heavy_core",
             "components": {
                 "minecraft:enchantments": {
-                    "c_mnmz:block_crafting": 1
+                    "minecraft:mending": 1
                 }
             }
         },

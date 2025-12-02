@@ -1,0 +1,56 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:power": 5
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:dispenser"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:dispenser"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:dispenser"
+        },
+        {
+          "item": "create:deployer"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:dispenser"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:dispenser"
+  }
+}

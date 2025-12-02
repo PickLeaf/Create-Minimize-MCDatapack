@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:luck_of_the_sea": 3
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:name_tag"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:name_tag"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:name_tag"
+        },
+        {
+          "item": "minecraft:nautilus_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:name_tag"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:name_tag"
+        },
+        {
+          "item": "minecraft:saddle"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:name_tag"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:name_tag"
+  }
+}

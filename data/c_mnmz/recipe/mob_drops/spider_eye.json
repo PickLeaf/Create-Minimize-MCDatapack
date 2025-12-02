@@ -3,7 +3,9 @@
   "heat_requirement": "heated",
   "ingredients": [
     {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "minecraft:beetroot"
+    },{
+      "tag": "c:nuggets/copper"
     },
     {
       "type": "neoforge:components",
@@ -18,7 +20,6 @@
   ],
   "results": [
     {
-      "count": 2,
       "id": "minecraft:spider_eye"
     }
   ]

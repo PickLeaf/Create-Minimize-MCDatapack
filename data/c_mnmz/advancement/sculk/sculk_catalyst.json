@@ -42,7 +42,7 @@
                 "translate": "create.recipe.assembly.step",
                 "with": [
                     {
-                        "text": "1"
+                        "text": "2"
                     }
                 ]
             },
@@ -60,7 +60,7 @@
                 "translate": "create.recipe.assembly.step",
                 "with": [
                     {
-                        "text": "1"
+                        "text": "3"
                     }
                 ]
             },

@@ -6,10 +6,10 @@
         }
     },
     "display": {
-        "title": {
-            "translate": "advancement.c_mnmz.elytra",
-            "fallback": "How to get Elytra"
-        },
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            { "translate": "item.minecraft.elytra"}
+        ],
         "description": [
             {"text": "一一田田界田田一一\n"},
             {"text": "一田钻田一田钻田一\n"},

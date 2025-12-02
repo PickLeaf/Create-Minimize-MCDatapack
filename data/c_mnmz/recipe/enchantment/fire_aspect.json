@@ -1,0 +1,56 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:fire_aspect": 2
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "create:brass_hand"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:brass_hand"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:brass_hand"
+        },
+        {
+          "item": "minecraft:flint_and_steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:brass_hand"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:brass_hand"
+  }
+}

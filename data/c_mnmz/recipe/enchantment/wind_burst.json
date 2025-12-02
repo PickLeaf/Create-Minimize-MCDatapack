@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:wind_burst": 3
+          }
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:breeze_rod"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:breeze_rod"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:breeze_rod"
+        },
+        {
+          "item": "minecraft:tnt"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:breeze_rod"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:breeze_rod"
+        },
+        {
+          "item": "minecraft:sculk_shrieker"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:breeze_rod"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:breeze_rod"
+  }
+}

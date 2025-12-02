@@ -1,0 +1,13 @@
+{
+    "type": "create:haunting",
+    "ingredients": [
+        {
+            "item": "minecraft:turtle_egg"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:nautilus_shell"
+        }
+    ]
+}
