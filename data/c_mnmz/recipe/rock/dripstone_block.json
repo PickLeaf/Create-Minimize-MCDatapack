@@ -1,0 +1,35 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "none",
+  "ingredients": [
+    {
+      "item": "minecraft:tuff"
+    },
+    {
+      "item": "minecraft:tuff"
+    },
+    {
+      "item": "minecraft:tuff"
+    },
+    {
+      "item": "minecraft:tuff"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:dripstone_block",
+      "count": 4
+    }
+  ]
+}

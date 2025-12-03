@@ -6,7 +6,7 @@
 		"max_format": 48,
 		"description": [
 			{
-				"text": "Create: Minimize V0.2[MC1.21.1]\n"
+				"text": "Create: Minimize V0.3[MC1.21.1]\n"
 			},
 			{
 				"text": "By 刘拾叶 | PickLeaf",
@@ -23,8 +23,5 @@
 				"directory": "print_info"
 			}
 		]
-	},
-	"language": {
-		
 	}
 }
