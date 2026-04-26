@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "N": {
+      "item": "minecraft:netherite_block"
+    },
+    "D": {
+      "item": "minecraft:diamond_ore"
+    },
+    "C": {
+      "item": "minecraft:clay"
+    },
+    "B": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "pattern": [
+    "  BBNBB  ",
+    " BDB BDB ",
+    "BDDB BDDB",
+    "BDCB BCDB",
+    "BCCBPBCCB",
+    "BBCB BCBB",
+    " BCB BCB ",
+    " BB   BB ",
+    " B     B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:elytra"
+  }
+}

@@ -1,1 +1,0 @@
-$data modify storage c_mnmz:mem compound set from storage c_mnmz:recipe block_crafting."$(id)"

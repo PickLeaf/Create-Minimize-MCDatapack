@@ -1,5 +1,5 @@
 {
-    "parent": "c_mnmz:block_crafting",
+    "parent": "c_mnmz:craft_way",
     "criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed"
@@ -8,19 +8,19 @@
     "display": {
         "title": [
             {"translate": "mnmz.how_to_get","fallback": "How to get "},
-            { "translate": "entity.minecraft.magma_cube"}
+            {"translate": "item.minecraft.magma_cube_spawn_egg"}
         ],
         "description": [
-            {"text": "火火火\n"},
-            {"text": "火火火\n"},
-            {"text": "火火火\n"},
-            {"color":"#F58220","text": "\n火: "},
+            {"text": "口口口口口\n"},
+            {"text": "口口蛋口口\n"},
+            {"text": "口蛋蛋蛋口\n"},
+            {"text": "口口蛋口口\n"},
+            {"text": "口口口口口\n\n"},
+            {"color": "#F58220","translate": "create.recipe.mechanical_crafting"},
+            {"color":"#F58220","text": "\n↑\n口: "},
             {"color":"#F58220","translate": "block.minecraft.magma_block"},
-            {"text": "\n\n"},
-            {"color":"#F58220","translate": "mnmz.catalyst","fallback": "Catalyst: "},
-            {"color":"#F58220","translate": "block.minecraft.magma_block"},
-            {"color":"#F58220","text": "←"},
-            {"color":"#F58220","translate": "create.recipe.deploying.not_consumed"}
+            {"color":"#F58220","text": "\n蛋: "},
+            {"color":"#F58220","translate": "item.minecraft.egg"}
         ],
         "icon": {
             "count": 1,

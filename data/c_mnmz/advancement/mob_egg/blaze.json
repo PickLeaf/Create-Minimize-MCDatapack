@@ -1,0 +1,42 @@
+{
+    "parent": "c_mnmz:mob_egg/magma_cube",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "item.minecraft.blaze_spawn_egg"}
+        ],
+        "description": [
+            {"text": "　　　口口口　　　\n"},
+            {"text": "　　　口蛋口　　　\n"},
+            {"text": "　　　口口口　　　\n"},
+            {"text": "口　　　　　　　口\n"},
+            {"text": "口　口　口　口　口\n"},
+            {"text": "　　口　　　口　　\n"},
+            {"text": "　　口　口　口　　\n"},
+            {"text": "　　　　口　　　　\n"},
+            {"text": "　　　　口　　　　\n\n"},
+            {"color": "#F58220","translate": "create.recipe.mechanical_crafting"},
+            {"color":"#F58220","text": "\n↑\n口: "},
+            {"color":"#F58220","translate": "item.minecraft.blaze_rod"},
+            {"color":"#F58220","text": "\n蛋: "},
+            {"color":"#F58220","translate": "item.minecraft.egg"}
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:blaze_spawn_egg"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

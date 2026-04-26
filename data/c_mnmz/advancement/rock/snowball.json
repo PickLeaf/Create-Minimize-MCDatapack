@@ -1,5 +1,5 @@
 {
-    "parent": "c_mnmz:craft_way",
+    "parent": "c_mnmz:rock/pointed_dripstone",
     "criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed"
@@ -8,29 +8,33 @@
     "display": {
         "title": [
             {"translate": "mnmz.how_to_get","fallback": "How to get "},
-            { "translate": "item.minecraft.dragon_breath"}
+            {"translate": "item.minecraft.snowball"}
         ],
         "description": [
             {
                 "color": "#F58220",
-                "translate": "create.recipe.deploying"
-            },
-            {"text": "←"},
-            {
-                "translate": "create.recipe.deploying.not_consumed"
+                "translate": "create.recipe.mixing"
             },
             {"text": ":\n"},
             {
-                "translate": "block.minecraft.dragon_head"
+                "translate": "block.minecraft.snow_block"
             },
-            {"text": "\n↓\n"},
+            {"text": "*2\n"},
             {
-                "translate": "item.minecraft.experience_bottle"
+                "translate": "block.minecraft.carved_pumpkin"
+            },
+            {"text": "*1\n"},
+            {
+                "translate": "block.minecraft.water"
+            },
+            {"text": "*100mB\n↑\n"},
+            {
+                "translate": "create.recipe.heat_requirement.none"
             }
         ],
         "icon": {
             "count": 1,
-            "id": "minecraft:dragon_breath"
+            "id": "minecraft:snowball"
         },
         "show_toast": false,
         "announce_to_chat": false

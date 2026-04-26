@@ -1,1 +1,0 @@
-fill ~4 ~ ~4 ~-4 ~ ~-4 minecraft:air

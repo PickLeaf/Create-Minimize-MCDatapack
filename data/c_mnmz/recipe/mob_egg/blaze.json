@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "E": {
+      "tag": "c_mnmz:egg"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "pattern": [
+    "   BBB   ",
+    "   BEB   ",
+    "   BBB   ",
+    "B       B",
+    "B B B B B",
+    "  B   B  ",
+    "  B B B  ",
+    "    B    ",
+    "    B    "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:blaze_spawn_egg"
+  }
+}
