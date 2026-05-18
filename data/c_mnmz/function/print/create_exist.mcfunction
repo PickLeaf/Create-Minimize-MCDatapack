@@ -15,7 +15,7 @@ data modify storage c_mnmz:print cmd.create_exist \
 
 execute if data storage c_mnmz:mem arg{fail:1b} run \
     data modify storage c_mnmz:print cmd.create_exist \
-        set value '{"translate": "mnmz.create_not_exist",\
+        set value '{"translate": "c_mnmz.create_not_exist",\
         "fallback": "(The CREATE mod is not installed. Please install it first!)",\
         "color": "red"}'
 

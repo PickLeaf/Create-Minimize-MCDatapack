@@ -7,7 +7,7 @@
     },
     "display": {
         "title": [
-            {"translate": "mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "c_mnmz.how_to_get","fallback": "How to get "},
             {"translate": "enchantment.minecraft.sweeping_edge"},
             {"translate": "enchantment.level.3"}
         ],

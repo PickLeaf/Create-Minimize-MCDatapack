@@ -1,5 +1,5 @@
 data modify storage c_mnmz:print cmd.error \
-        set value '{"translate": "mnmz.load_resourcepack",\
+        set value '{"translate": "c_mnmz.load_resourcepack",\
         "fallback": "(Missing Resource Pack)"},\
-        {"translate": "mnmz.load_wrong_version",\
+        {"translate": "c_mnmz.load_wrong_version",\
         "fallback": "(Be loaded to WRONG version!)"}'

@@ -1,5 +1,5 @@
 data modify storage c_mnmz:print cmd.link \
-    set value '{"translate": "mnmz.link",\
+    set value '{"translate": "c_mnmz.link",\
     "fallback": "[Link]",\
     "underlined": true,\
     "color": "aqua",\
