@@ -1,0 +1,56 @@
+{
+    "parent": "c_mnmz:plant/leaf_copy",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "title": [
+            {"translate": "c_mnmz.how_to_get","fallback": "How to get "},
+            {"translate": "block.minecraft.chorus_flower"}
+        ],
+        "description": [
+            {
+                "color": "#F58220",
+                "translate": "create.recipe.mixing"
+            },
+            {"text": ":\n"},
+            {
+                "translate": "item.minecraft.chorus_fruit"
+            },
+            {"text": "*2\n"},
+            {
+                "translate": "block.minecraft.chorus_flower"
+            },
+            {"text": "*1\n"},
+            {
+                "translate": "potion.withDuration",
+                "with": [
+                    [
+                        {"translate": "effect.minecraft.regeneration"},
+                        {"translate": "potion.potency.1"}
+                    ],
+                    {"text": "00:22"}
+                ]
+            },
+            {"text": "*25mB\n↑\n"},
+            {
+                "translate": "create.recipe.heat_requirement.none"
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:chorus_flower"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "task"
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ],
+    "sends_telemetry_event": false
+}
