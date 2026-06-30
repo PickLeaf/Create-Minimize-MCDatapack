@@ -1,5 +1,5 @@
 {
-    "parent": "c_mnmz:enchantment/efficiency",
+    "parent": "c_mnmz:rare_thing/nautilus_shell",
     "criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed"
@@ -7,8 +7,7 @@
     },
     "display": {
         "title": [
-            {"translate": "c_mnmz.how_to_get","fallback": "How to get "},
-            {"translate": "enchantment.minecraft.silk_touch"}
+            {"translate": "advancement.c_mnmz.silk_touch_tool.desc"}
         ],
         "description": [
             {
@@ -17,7 +16,7 @@
             },
             {"text": ":\n"},
             {
-                "translate": "item.minecraft.book"
+                "translate": "item.minecraft.golden_pickaxe"
             },
             {"text": "\n↓\n"},
             {

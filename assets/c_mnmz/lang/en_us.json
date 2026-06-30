@@ -16,5 +16,6 @@
     "advancement.c_mnmz.leaf_copy": "How to duplicate Leaves",
     "advancement.c_mnmz.leaf_copy.desc": "Follow the previous recipe, replace leaves with other type of leaves",
     "advancement.c_mnmz.coral_block": "How to get Coral Block",
-    "advancement.c_mnmz.coral_block.desc": "Follow the previous recipe, replace leaves with other flowers or coral (fan)"
+    "advancement.c_mnmz.coral_block.desc": "Follow the previous recipe, replace leaves with other flowers or coral (fan)",
+    "advancement.c_mnmz.silk_touch_tool.desc": "Want a Silk Touch tool?"
 }

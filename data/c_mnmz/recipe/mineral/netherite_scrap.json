@@ -5,6 +5,7 @@
             "item": "minecraft:nether_bricks"
         }
     ],
+  "processing_time": 300,
     "results": [
         {
             "count": 2,

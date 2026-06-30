@@ -1,5 +1,5 @@
 {
-    "parent": "c_mnmz:rare_thing/nautilus_shell",
+    "parent": "c_mnmz:rare_thing/silk_touch_tool",
     "criteria": {
         "0": {
             "trigger": "minecraft:inventory_changed"

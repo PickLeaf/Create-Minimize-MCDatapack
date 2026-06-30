@@ -16,5 +16,6 @@
     "advancement.c_mnmz.leaf_copy": "如何复制树叶",
     "advancement.c_mnmz.leaf_copy.desc": "遵循先前的配方，替换树叶为其他种类的树叶",
     "advancement.c_mnmz.coral_block": "如何获取珊瑚块",
-    "advancement.c_mnmz.coral_block.desc": "遵循先前的配方，替换珊瑚（扇）为其他种类的珊瑚（扇）"
+    "advancement.c_mnmz.coral_block.desc": "遵循先前的配方，替换珊瑚（扇）为其他种类的珊瑚（扇）",
+    "advancement.c_mnmz.silk_touch_tool.desc": "想要精准采集工具？"
 }
